@@ -920,3 +920,239 @@
         font-weight: bold;
     }
 }
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .background {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    body {
+        width: 100%;
+        height: 1250px;
+    }
+    
+    .header {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .girl {
+        position: relative;
+        left: 10%;
+        bottom: 98%;
+        width: 25%;
+        height: 90%;
+        z-index: 1;
+    }
+    
+    .man {
+        position: relative;
+        bottom: 98%;
+        left: 38%;
+        width: 30%;
+        height: 97%;
+        z-index: 1;
+    }
+    
+    .boxes {
+        position: relative;
+        width: 27%;
+        height: 33%;
+        right: 20%;
+        bottom: 116%;
+        z-index: 1;
+    }
+    
+    .text {
+        position: relative;
+        bottom: 120%;
+        left: 25%;
+        width: 50%;
+        height: 25%;
+        z-index: 2;
+    }
+    
+    .text p {
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 13px;
+    }
+    
+    .challenge {
+        position: relative;
+        bottom: 15%;
+    }
+    
+    .main-content {
+        width: 100%;
+        height: 60%;
+        overflow: hidden;
+    }
+    
+    .wall {
+        width: 100%;
+        height: 750px;
+    }
+    
+    .dog {
+        width: 15%;
+        height: 40%;
+        position: relative;
+        bottom: 750px;
+        left: 5px;
+    }
+    
+    .features {
+        position: relative;
+        top: 200px;
+        left: -110px;
+    }
+    
+    .set {
+        position: relative;
+        bottom: 1250px;
+        left: 180px;
+        z-index: 15;
+        color: blue;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    
+    .game-time {
+        z-index: 20;
+        width: 88.5%;
+        position: relative;
+        bottom: 1250px;
+        left: 175px;
+    }
+    
+    .game-time:hover {
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    
+    .set-tools {
+        z-index: 20;
+        width: 88.5%;
+        position: relative;
+        bottom: 1255px;
+        left: 175px;
+    }
+    
+    .set-tools:hover {
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    
+    .runa {
+        z-index: 20;
+        width: 88.5%;
+        position: relative;
+        bottom: 1260px;
+        left: 175px;
+    }
+    
+    .runa:hover {
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    
+    .symbol {
+        z-index: 20;
+        width: 88.5%;
+        position: relative;
+        bottom: 1275px;
+        left: 175px;
+    }
+    
+    .symbol:hover {
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    
+    .mana {
+        z-index: 20;
+        width: 88.5%;
+        position: relative;
+        bottom: 1280px;
+        left: 175px;
+    }
+    
+    .mana:hover {
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    
+    .module-memory {
+        z-index: 20;
+        width: 88.5%;
+        position: relative;
+        bottom: 1290px;
+        left: 175px;
+    }
+    
+    .module-memory:hover {
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    
+    .vito {
+        z-index: 20;
+        width: 88.5%;
+        position: relative;
+        bottom: 1410px;
+        left: 175px;
+    }
+    
+    .vito:hover {
+        border: 1px solid white;
+        cursor: pointer;
+    }
+    
+    .box {
+        z-index: 20;
+        position: relative;
+        background-size: auto;
+        text-align: center;
+        bottom: 1200px;
+        left: 150px;
+        width: 30%;
+        height: 150px;
+        margin-left: -300px;
+    }
+    
+    .buy {
+        background-color: yellow;
+        border-radius: 5px;
+        position: relative;
+        bottom: 1235px;
+        left: 100px;
+        font-size: 20px;
+        width: auto;
+        z-index: 25;
+    }
+    
+    .buy:hover {
+        background-color: orange;
+        cursor: pointer;
+    }
+    
+    .buy:active {
+        background-color: rgb(247, 177, 49);
+        font-size: 16px;
+    }
+    
+    .price {
+        z-index: 20;
+        color: white;
+        position: relative;
+        bottom: 1325px;
+        left: 300px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
